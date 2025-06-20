@@ -1,0 +1,26 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "hdkhank462",
+  "homepage": "https://github.com/hdkhank462/shadcn-ui-components",
+  "items": [
+    {
+      "name": "richtext-editor",
+      "type": "registry:component",
+      "title": "Richtext Editor",
+      "description": "A customizable rich text editor component using TipTap and shadcn/ui.",
+      "files": [
+        {
+          "path": "src/registry/default/components/richtext-editor.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "dependencies": [
+        "@tiptap/react",
+        "@tiptap/starter-kit",
+        "@tiptap/extension-text-align",
+        "lucide-react",
+        "class-variance-authority"
+      ]
+    }
+  ]
+}
