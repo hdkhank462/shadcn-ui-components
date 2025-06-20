@@ -16,6 +16,8 @@ You can install the components in two ways:
 
 If you use the [shadcn/ui CLI](https://ui.shadcn.com/docs/cli/usage), simply run:
 
+- RichtextEditor
+
 ```bash
 npx shadcn@latest add https://raw.githubusercontent.com/hdkhank462/shadcn-ui-components/refs/heads/master/public/r/richtext-editor.json
 ```
@@ -28,6 +30,8 @@ This will automatically add the component and its dependencies to your project.
 
 Install the required packages:
 
+- RichtextEditor
+
 ```bash
 npm install @tiptap/react @tiptap/starter-kit @tiptap/extension-text-align lucide-react class-variance-authority
 ```
@@ -37,18 +41,6 @@ npm install @tiptap/react @tiptap/starter-kit @tiptap/extension-text-align lucid
 Copy the component file to your project, for example:
 
 - `src/components/richtext-editor.tsx`
-
-#### c. Usage
-
-```tsx
-import RichtextEditor from "@/components/richtext-editor";
-
-export default function Page() {
-  return <RichtextEditor />;
-}
-```
-
-You can pass additional props to customize the editor.
 
 ---
 
