@@ -17,7 +17,7 @@ You can install the components in two ways:
 If you use the [shadcn/ui CLI](https://ui.shadcn.com/docs/cli/usage), simply run:
 
 ```bash
-npx shadcn@latest add https://github.com/hdkhank462/shadcn-ui-components/...
+npx shadcn@latest add https://raw.githubusercontent.com/hdkhank462/shadcn-ui-components/refs/heads/master/public/r/richtext-editor.json
 ```
 
 This will automatically add the component and its dependencies to your project.
